@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Typhography */
+h1 {
+  @apply font-bold text-[4rem] tracking-tight;
+}
+h2 {
+  @apply font-bold text-[2.5rem] tracking-tight;
+}
+h3 {
+  @apply font-bold text-2xl tracking-tight;
+}
+h4 {
+  @apply font-medium text-2xl tracking-normal;
+}
+p.text-body {
+  @apply font-medium text-base tracking-normal leading-5;
+}
+p.text-small {
+  @apply font-medium text-sm tracking-normal;
+}
+p.text-pre-title {
+  @apply font-bold text-[0.75rem] tracking-wide;
+}
+p.text-btn {
+  @apply font-bold text-[0.75rem] tracking-wide uppercase;
+}
+a {
+  @apply font-bold underline text-secondary cursor-pointer;
+}
